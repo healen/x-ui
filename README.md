@@ -23,5 +23,7 @@ Vue.use(Xui);
 
 官网地址：[https://healen.github.io/xui](https://healen.github.io/xui)
 
+免责声明：本框架 禁止用于商业用途 仅供学习参考
+
 
 
