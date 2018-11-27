@@ -19,6 +19,10 @@ const routes = [
       path:'/',
       redirect:""
     }]
+  },
+  {
+    path:'/',
+    component:()=>import('views/index')
   }
 ]
 
