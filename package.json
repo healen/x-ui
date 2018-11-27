@@ -1,6 +1,6 @@
 {
   "name": "healen-x-ui",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "packages/index.js",
   "description": "x-ui is a h5 ui component for vue",
   "author": "zhangxiaodong <live_web@126.com>",
