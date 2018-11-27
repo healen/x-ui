@@ -21,7 +21,7 @@ Vue.use(Xui);
 ```
 -
 
-官网地址：[https://healen.github.io/xui](https://healen.github.io/heaUi)
+官网地址：[https://healen.github.io/xui](https://healen.github.io/xui)
 
 
 
