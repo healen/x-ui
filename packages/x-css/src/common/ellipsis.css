@@ -1,0 +1,5 @@
+@import '../mixins/ellipsis.css';
+
+.x-ellipsis {
+  @include ellipsis;
+}

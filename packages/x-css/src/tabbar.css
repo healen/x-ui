@@ -1,0 +1,58 @@
+@import './common/var.css';
+
+.x-tabbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  box-shadow: 0 -.2rem 1rem #ddd;
+  background:#fefefe;
+
+  &--fixed {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+  }
+
+  &-item {
+    flex: 1;
+    color: #ccc;
+    display: flex;
+    line-height: 1;
+    font-size: 1.2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    &__icon {
+
+      position: relative;
+      margin-bottom: 5px;
+      .x-icon {
+        display: block;
+        font-size: 2.5rem;
+      }
+
+      &--dot {
+        &::after {
+          top: 0;
+          right: -8px;
+          width: 8px;
+          height: 8px;
+          content: ' ';
+          position: absolute;
+          border-radius: 100%;
+          background-color: $red;
+        }
+      }
+
+      img {
+        height: 18px;
+        display: block;
+      }
+    }
+
+    &--active {
+      color: $blue;
+    }
+  }
+}

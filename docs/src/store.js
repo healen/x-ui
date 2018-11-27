@@ -1,0 +1,1 @@
+import Vue from 'vue'import Vuex from 'vuex'Vue.use(Vuex)export default new Vuex.Store({  state(){    return {      demoUrl:"#/demo"    }  },  mutations:{    SET_DEMO_URL(state,url){     state.demoUrl = url    }  }})

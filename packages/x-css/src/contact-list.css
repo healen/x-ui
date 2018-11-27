@@ -1,0 +1,62 @@
+@import './common/var.css';
+
+.x-contact-list {
+  height: 100%;
+  padding-bottom: 65px;
+  box-sizing: border-box;
+
+  .x-cell {
+    padding: 15px;
+  }
+
+  .x-cell__value {
+    color: $text-color;
+    padding-right: 34px;
+    position: relative;
+  }
+
+  .x-radio__label {
+    margin-left: 27px;
+  }
+
+  .x-radio__input {
+    top: 50%;
+    left: 0;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(0, -50%);
+  }
+
+  .x-icon-checked {
+    color: $red;
+  }
+
+  &__group {
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  &__name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  &__edit {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 16px;
+    transform: translate(0, -50%);
+  }
+
+  &__add {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+}

@@ -1,0 +1,1 @@
+.x-swipe-cell{overflow:hidden;position:relative}.x-swipe-cell__left,.x-swipe-cell__right{top:0;height:100%;position:absolute}.x-swipe-cell__left{left:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}.x-swipe-cell__right{right:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}
