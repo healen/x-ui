@@ -81,7 +81,7 @@ import Button from 'x-ui/lib/button';
 import 'x-ui/lib/x-ui-css/base.css';
 import 'x-ui/lib/x-ui-css/button.css';
 ```
- 
+
 #### 方式三. 导入所有组件
 
 ```js
