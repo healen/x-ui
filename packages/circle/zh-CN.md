@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Circle } from 'x-ui';
+import { Circle } from 'healen-x-ui';
 
 Vue.use(Circle);
 ```

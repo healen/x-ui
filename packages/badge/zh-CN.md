@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Badge, BadgeGroup } from 'x-ui';
+import { Badge, BadgeGroup } from 'healen-x-ui';
 
 Vue.use(Badge);
 Vue.use(BadgeGroup);

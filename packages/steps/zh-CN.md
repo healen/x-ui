@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Step, Steps } from 'x-ui';
+import { Step, Steps } from 'healen-x-ui';
 
 Vue.use(Step).use(Steps);
 ```

@@ -3,7 +3,7 @@
 
 ### 使用指南
 ``` javascript
-import { PasswordInput, NumberKeyboard } from 'x-ui';
+import { PasswordInput, NumberKeyboard } from 'healen-x-ui';
 
 Vue.use(PasswordInput).use(NumberKeyboard);
 ```

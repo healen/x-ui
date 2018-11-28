@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Switch } from 'x-ui';
+import { Switch } from 'healen-x-ui';
 
 Vue.use(Switch);
 ```

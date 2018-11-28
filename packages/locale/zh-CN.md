@@ -5,7 +5,7 @@ Vant 默认采用中文作为语言，如果需要使用其他语言，可以参
 Vant 通过 Locale 组件实现多语言支持，使用 `Locale.use` 方法可以切换当前使用的语言。
 
 ```js
-import { Locale } from 'x-ui';
+import { Locale } from 'healen-x-ui';
 import enUS from 'vant/lib/locale/lang/en-US';
 
 Locale.use('en-US', enUS);
@@ -15,7 +15,7 @@ Locale.use('en-US', enUS);
 通过 `Locale.add` 方法可以实现文案的修改和扩展，示例如下：
 
 ```js
-import { Locale } from 'x-ui';
+import { Locale } from 'healen-x-ui';
 
 const messages = {
   'zh-CN': {

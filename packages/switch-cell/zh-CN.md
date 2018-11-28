@@ -4,7 +4,7 @@
 
 ### 使用指南
 ``` javascript
-import { SwitchCell } from 'x-ui';
+import { SwitchCell } from 'healen-x-ui';
 
 Vue.use(SwitchCell);
 ```

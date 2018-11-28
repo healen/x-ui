@@ -4,7 +4,7 @@
 ### 使用指南
 
 ```javascript
-import { Area } from 'x-ui';
+import { Area } from 'healen-x-ui';
 
 Vue.use(Area);
 ```

@@ -3,7 +3,7 @@
 
 ### 使用指南
 ``` javascript
-import { DatetimePicker } from 'x-ui';
+import { DatetimePicker } from 'healen-x-ui';
 
 Vue.use(DatetimePicker);
 ```

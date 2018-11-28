@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Checkbox, CheckboxGroup } from 'x-ui';
+import { Checkbox, CheckboxGroup } from 'healen-x-ui';
 
 Vue.use(Checkbox).use(CheckboxGroup);
 ```

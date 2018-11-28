@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Button } from 'x-ui';
+import { Button } from 'healen-x-ui';
 
 Vue.use(Button);
 ```

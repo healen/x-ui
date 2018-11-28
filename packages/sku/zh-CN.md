@@ -2,7 +2,7 @@
 
 ### 使用指南
 ```javascript
-import { Sku } from 'x-ui';
+import { Sku } from 'healen-x-ui';
 
 Vue.use(Sku);
 ```

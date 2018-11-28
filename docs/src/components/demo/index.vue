@@ -1,1 +1,0 @@
-<template>  <div>demo</div></template><script>  export default {    name: "xDemo"  }</script><style scoped></style>

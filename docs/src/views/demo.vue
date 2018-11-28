@@ -1,1 +1,1 @@
-<template>  <div>    <x-nav-bar            title="标题"            right-text="按钮"            left-arrow    />    <router-view/>  </div></template><script>  export default {    name: "index"  }</script><style scoped></style>
+<template>  <div>    <router-view/>  </div></template><script>  export default {    name: "index"  }</script><style scoped></style>

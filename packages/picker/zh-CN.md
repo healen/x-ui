@@ -3,7 +3,7 @@
 
 ### 使用指南
 ``` javascript
-import { Picker } from 'x-ui';
+import { Picker } from 'healen-x-ui';
 
 Vue.use(Picker);
 ```

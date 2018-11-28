@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Stepper } from 'x-ui';
+import { Stepper } from 'healen-x-ui';
 
 Vue.use(Stepper);
 ```

@@ -6,7 +6,7 @@
 
 ```js
 import Vue from 'vue';
-import { Lazyload } from 'x-ui';
+import { Lazyload } from 'healen-x-ui';
 
 // options 为可选参数，无则不传
 Vue.use(Lazyload, options);

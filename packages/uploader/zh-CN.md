@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Uploader } from 'x-ui';
+import { Uploader } from 'healen-x-ui';
 
 Vue.use(Uploader);
 ```

@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Tabbar, TabbarItem } from 'x-ui';
+import { Tabbar, TabbarItem } from 'healen-x-ui';
 
 Vue.use(Tabbar).use(TabbarItem);
 ```

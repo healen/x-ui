@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Popup } from 'x-ui';
+import { Popup } from 'healen-x-ui';
 
 Vue.use(Popup);
 ```

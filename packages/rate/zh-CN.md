@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Rate } from 'x-ui';
+import { Rate } from 'healen-x-ui';
 
 Vue.use(Rate);
 ```

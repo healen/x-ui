@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Actionsheet } from 'x-ui';
+import { Actionsheet } from 'healen-x-ui';
 
 Vue.use(Actionsheet);
 ```

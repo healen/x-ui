@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { SwipeCell } from 'x-ui';
+import { SwipeCell } from 'healen-x-ui';
 
 Vue.use(SwipeCell);
 ```

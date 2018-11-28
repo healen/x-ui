@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Slider } from 'x-ui';
+import { Slider } from 'healen-x-ui';
 
 Vue.use(Slider);
 ```

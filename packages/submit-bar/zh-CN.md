@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { SubmitBar } from 'x-ui';
+import { SubmitBar } from 'healen-x-ui';
 
 Vue.use(SubmitBar);
 ```

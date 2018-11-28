@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Collapse, CollapseItem } from 'x-ui';
+import { Collapse, CollapseItem } from 'healen-x-ui';
 
 Vue.use(Collapse).use(CollapseItem);
 ```

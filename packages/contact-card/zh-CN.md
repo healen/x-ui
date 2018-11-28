@@ -3,7 +3,7 @@
 
 ### 使用指南
 ``` javascript
-import { ContactCard, ContactList, ContactEdit } from 'x-ui';
+import { ContactCard, ContactList, ContactEdit } from 'healen-x-ui';
 
 Vue
   .use(ContactCard)

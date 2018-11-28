@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { CouponCell, CouponList } from 'x-ui';
+import { CouponCell, CouponList } from 'healen-x-ui';
 
 Vue.use(CouponCell).use(CouponList);
 ```

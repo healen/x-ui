@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Cell, CellGroup } from 'x-ui';
+import { Cell, CellGroup } from 'healen-x-ui';
 
 Vue.use(Cell).use(CellGroup);
 ```

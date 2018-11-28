@@ -4,7 +4,7 @@
 
 ### 使用指南
 ``` javascript
-import { Field } from 'x-ui';
+import { Field } from 'healen-x-ui';
 
 Vue.use(Field);
 ```

@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Card } from 'x-ui';
+import { Card } from 'healen-x-ui';
 
 Vue.use(Card);
 ```

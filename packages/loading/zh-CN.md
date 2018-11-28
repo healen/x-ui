@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Loading } from 'x-ui';
+import { Loading } from 'healen-x-ui';
 
 Vue.use(Loading);
 ```

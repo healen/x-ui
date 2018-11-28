@@ -17,7 +17,8 @@ const routes = [
     component:()=> import('views/demo'),
     children:[{
       path:'/',
-      redirect:""
+      component:()=> import('views/demoIndex'),
+
     }]
   },
   {
@@ -32,11 +33,21 @@ NavConf.nav.forEach(item=>{
       group.list.forEach(list=>{
         routes[0].children.push({
           path:list.name,
-          component:()=> import(`../../../packages/${list.name}/zh-CN.md`)
+          name:list.name,
+          component:()=> import(`../../../packages/${list.name}/zh-CN.md`),
+          meta:{
+            title:list.title,
+            isDemo:true
+          }
         })
         routes[1].children.push({
           path:list.name,
-          component:()=> import(`../../../packages/${list.name}/demo/index`)
+          name:list.name,
+          component:()=> import(`../../../packages/${list.name}/demo/index`),
+          meta:{
+            title:list.title,
+            isDemo:false
+          }
         })
       })
     })
@@ -45,7 +56,12 @@ NavConf.nav.forEach(item=>{
       group.list.forEach(list=>{
         routes[0].children.push({
           path:`${list.name}`,
-          component:()=> import(`../../markdown/${list.name}.md`)
+          name:list.name,
+          component:()=> import(`../../markdown/${list.name}.md`),
+          meta:{
+            title:list.title,
+            isDemo:false
+          }
         })
       })
     })

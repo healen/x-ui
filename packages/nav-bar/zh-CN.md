@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { NavBar } from 'x-ui';
+import { NavBar } from 'healen-x-ui';
 
 Vue.use(NavBar);
 ```

@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { NumberKeyboard } from 'x-ui';
+import { NumberKeyboard } from 'healen-x-ui';
 
 Vue.use(NumberKeyboard);
 ```

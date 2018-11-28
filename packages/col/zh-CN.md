@@ -4,7 +4,7 @@
 
 ### 使用指南
 ``` javascript
-import { Row, Col } from 'x-ui';
+import { Row, Col } from 'healen-x-ui';
 
 Vue.use(Row).use(Col);
 ```

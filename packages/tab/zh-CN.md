@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Tab, Tabs } from 'x-ui';
+import { Tab, Tabs } from 'healen-x-ui';
 
 Vue.use(Tab).use(Tabs);
 ```

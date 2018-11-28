@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { NoticeBar } from 'x-ui';
+import { NoticeBar } from 'healen-x-ui';
 
 Vue.use(NoticeBar);
 ```

@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Swipe, SwipeItem } from 'x-ui';
+import { Swipe, SwipeItem } from 'healen-x-ui';
 
 Vue.use(Swipe).use(SwipeItem);
 ```

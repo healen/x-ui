@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Progress } from 'x-ui';
+import { Progress } from 'healen-x-ui';
 
 Vue.use(Progress);
 ```

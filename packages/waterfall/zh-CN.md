@@ -7,7 +7,7 @@
 
 ```js
 import Vue from 'vue';
-import { Waterfall } from 'x-ui';
+import { Waterfall } from 'healen-x-ui';
 
 Vue.use(Waterfall);
 ```
@@ -17,7 +17,7 @@ Vue.use(Waterfall);
 如果你只是想在某个组件中使用`Waterfall`，可以在对应组件中注册`Waterfall`指令，这样只能在你注册的组件中使用`Waterfall`：
 
 ```js
-import { Waterfall } from 'x-ui';
+import { Waterfall } from 'healen-x-ui';
 
 export default {
   directives: {

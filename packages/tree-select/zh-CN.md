@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { TreeSelect } from 'x-ui';
+import { TreeSelect } from 'healen-x-ui';
 
 Vue.use(TreeSelect);
 ```

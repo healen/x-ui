@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { RadioGroup, Radio } from 'x-ui';
+import { RadioGroup, Radio } from 'healen-x-ui';
 
 Vue.use(RadioGroup);
 Vue.use(Radio);

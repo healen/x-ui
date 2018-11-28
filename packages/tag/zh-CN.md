@@ -2,7 +2,7 @@
 
 ### 使用指南
 ``` javascript
-import { Tag } from 'x-ui';
+import { Tag } from 'healen-x-ui';
 
 Vue.use(Tag);
 ```

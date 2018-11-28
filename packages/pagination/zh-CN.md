@@ -3,7 +3,7 @@
 
 ### 使用指南
 ``` javascript
-import { Pagination } from 'x-ui';
+import { Pagination } from 'healen-x-ui';
 
 Vue.use(Pagination);
 ```

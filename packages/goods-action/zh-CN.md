@@ -6,7 +6,7 @@ import {
   GoodsAction,
   GoodsActionBigBtn,
   GoodsActionMiniBtn
-} from 'x-ui';
+} from 'healen-x-ui';
 
 Vue
   .use(GoodsAction)
