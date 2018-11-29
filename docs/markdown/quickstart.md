@@ -18,13 +18,15 @@ vue create hello-world
 #### NPM
 
 ```shell
-npm i x-ui -S
+npm i healen-x-ui -S
+npm i vue-lazyload -S
 ```
 
 #### YARN
 
 ```shell
-yarn add x-ui
+yarn add healen-x-ui
+yarm add vue-lazyload
 ```
 
 
@@ -39,58 +41,29 @@ yarn add x-ui
 npm i babel-plugin-import -D
 ```
 
-```js
-// .babelrc 中配置
-// 注意：webpack 1 无需设置 libraryDirectory
-{
-  "plugins": [
-    ["import", {
-      "libraryName": "x-ui",
-      "libraryDirectory": "es",
-      "style": true
-    }]
-  ]
-}
 
-// 对于使用 babel7 的用户，可以在 babel.config.js 中配置
-module.exports = {
-  plugins: [
-    ['import', {
-      libraryName: 'x-ui',
-      libraryDirectory: 'es',
-      style: true
-    }, 'x-ui']
-  ]
-};
-```
-
-接着你可以在代码中直接引入 x-ui 组件，插件会自动将代码转化为方式二中的按需引入形式
+#### 方法一. 在main.js里全部引入
 
 ```js
-import { Button, Cell } from 'x-ui';
+
+    import Xui from 'healen-x-ui' // 组件库
+    import 'healen-x-ui/packages/x-css/lib/index.css' //样式
+    Vue.use(Xui) // 使用
+
 ```
 
-> 如果你在使用 TypeScript，可以使用 [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) 实现按需引入
+
 
 #### 方式二. 按需引入组件
 
 在不使用插件的情况下，可以手动引入需要的组件
 
 ```js
-import Button from 'x-ui/lib/button';
-import 'x-ui/lib/x-ui-css/base.css';
-import 'x-ui/lib/x-ui-css/button.css';
+import {Button} from 'healen-x-ui';
+import 'healen-x-ui/packages/x-css/lib/base.css';
+import 'healen-x-ui/packages/x-css/lib/button.css';
 ```
 
-#### 方式三. 导入所有组件
-
-```js
-import Vue from 'vue';
-import x-ui from 'x-ui';
-import 'x-ui/lib/x-ui-css/index.css';
-
-Vue.use(x-ui);
-```
 
 > 注意：配置 babel-plugin-import 插件后将不允许导入所有组件
 
