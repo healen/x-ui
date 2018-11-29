@@ -6,7 +6,7 @@
     @click="$emit('click')"
   >
     <div v-if="leftIcon" :class="b('left-icon')">
-      <img :src="leftIcon" >
+      <x-icon :name="leftIcon"/>
     </div>
     <div :class="b('wrap')" ref="wrap">
       <div

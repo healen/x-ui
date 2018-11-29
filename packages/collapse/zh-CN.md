@@ -14,14 +14,14 @@ Vue.use(Collapse).use(CollapseItem);
 
 ```html
 <x-collapse v-model="activeNames">
-  <x-collapse-item title="有赞微商城" name="1">
-    提供多样店铺模板，快速搭建网上商城
+  <x-collapse-item title="小UI好呀" name="1">
+    提供多种组件，快速搭建H5应用
   </x-collapse-item>
-  <x-collapse-item title="有赞零售" name="2">
-    网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
+  <x-collapse-item title="小UI扩展" name="2">
+    扩展自如，随心搭建
   </x-collapse-item>
-  <x-collapse-item title="有赞美业" name="3" disabled>
-    线上拓客，随时预约，贴心顺手的开单收银
+  <x-collapse-item title="小UI组件" name="3" disabled>
+    很牛的框架 
   </x-collapse-item>
 </x-collapse>
 ```
@@ -41,14 +41,14 @@ export default {
 
 ```html
 <x-collapse v-model="activeName" accordion>
-  <x-collapse-item title="有赞微商城" name="1">
-    提供多样店铺模板，快速搭建网上商城
+  <x-collapse-item title="小UI好呀" name="1">
+    提供多种组件，快速搭建H5应用
   </x-collapse-item>
-  <x-collapse-item title="有赞零售" name="2">
-    网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
+  <x-collapse-item title="小UI扩展" name="2">
+    扩展自如，随心搭建
   </x-collapse-item>
-  <x-collapse-item title="有赞美业" name="3">
-    线上拓客，随时预约，贴心顺手的开单收银
+  <x-collapse-item title="小UI组件" name="3">
+    很牛的框架 
   </x-collapse-item>
 </x-collapse>
 ```
@@ -68,11 +68,11 @@ export default {
 ```html
 <x-collapse v-model="activeNames">
   <x-collapse-item name="1">
-    <div slot="title">有赞微商城<x-icon name="question" /></div>
-    提供多样店铺模板，快速搭建网上商城
+    <div slot="title">小UI好呀<x-icon name="question" /></div>
+    提供多种组件，快速搭建H5应用
   </x-collapse-item>
-  <x-collapse-item title="有赞零售" name="2">
-    网店吸粉获客、会员分层营销、一机多种收款，告别经营低效和客户流失
+  <x-collapse-item title="小UI扩展" name="2">
+    扩展自如，随心搭建
   </x-collapse-item>
 </x-collapse>
 ```

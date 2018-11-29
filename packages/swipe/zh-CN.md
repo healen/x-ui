@@ -34,14 +34,17 @@ Vue.use(Swipe).use(SwipeItem);
 
 ```javascript
 export default {
-  data() {
-    return {
-      images: [
-        'https://img.yzcdn.cn/1.jpg',
-        'https://img.yzcdn.cn/2.jpg'
-      ]
+    data() {
+      return {
+        imageList: [
+          'https://raw.githubusercontent.com/healen/xui/gh-pages/a/1.jpeg',
+          'https://raw.githubusercontent.com/healen/xui/gh-pages/a/2.jpeg',
+          'https://raw.githubusercontent.com/healen/xui/gh-pages/a/3.jpeg',
+          'https://raw.githubusercontent.com/healen/xui/gh-pages/a/4.jpeg',
+          'https://raw.githubusercontent.com/healen/xui/gh-pages/a/5.jpeg',
+        ]
+      };
     }
-  }
 }
 ```
 

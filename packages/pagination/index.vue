@@ -5,7 +5,7 @@
       :class="[b('item', { disabled: value === 1 }), b('prev')]"
       @click="selectPage(value - 1)"
     >
-      {{ prevText || $t('prev') }}
+      {{ prevText || '上一页' }}
     </li>
     <li
       v-if="isMultiMode"
@@ -24,7 +24,7 @@
       :class="[b('item', { disabled: value === computedPageCount }), b('next')]"
       @click="selectPage(value + 1)"
     >
-      {{ nextText || $t('next') }}
+      {{ nextText || '下一页' }}
     </li>
   </ul>
 </template>

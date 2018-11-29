@@ -1,55 +1,67 @@
 <template>
   <demo-section>
-    <demo-block :title="$t('title')">
-      <x-col span="8" v-for="icon in icons" :key="icon">
-        <x-icon :name="icon" />
-        <span>{{ icon }}</span>
-      </x-col>
+    <demo-block title="现有图标">
+      <ul>
+        <li v-for="i in iconlist">
+          <div>
+            <x-icon :name="i"></x-icon>
+            <p>{{i}}</p>
+          </div>
+
+        </li>
+      </ul>
+
     </demo-block>
   </demo-section>
 </template>
-
 <script>
-import icons from '../../../packages/icon/config';
+  import demoSection from '../../common/demoSection'
+  import demoBlock from '../../common/demoBlock'
+  import iconlist from './icon_list'
 
-export default {
-  i18n: {
-    'zh-CN': {
-      title: '图标列表'
+  export default {
+    name: "index",
+    components:{
+      demoSection,
+      demoBlock
     },
-    'en-US': {
-      title: 'Icon List'
+    computed:{
+      iconlist(){
+        return iconlist
+      }
     }
-  },
-
-  data() {
-    this.icons = icons.glyphs.map(icon => icon.css);
-    return {};
   }
-};
 </script>
 
-<style lang="postcss">
-.demo-icon {
-  font-size: 0;
+<style scoped lang="less">
 
-  .x-col {
-    text-align: center;
-    height: 100px;
-    float: none;
-    display: inline-block;
-    vertical-align: middle;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      transition: all .5s;
+      width: 33.3%;
+      color: #555;
+      /*border:1px solid #cccccc;*/
+      display: flex;
+      box-sizing: border-box;
+      div{
+        margin: 1rem 0;
+        width: 100%;
+        display: inline;
+        text-align: center;
+      }
+      .x-icon{
+        font-size: 4rem;
+        display: inline-block;
+        margin-bottom: 1rem;
+      }
+      transform: scale(1);
+      &:hover{
+        color: #ff0000;
+      }
+    }
   }
 
-  .x-icon {
-    display: block;
-    font-size: 32px;
-    margin: 15px 0;
-    color: rgba(69, 90, 100, .8);
-  }
 
-  span {
-    font-size: 14px;
-  }
-}
 </style>

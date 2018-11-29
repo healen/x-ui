@@ -26,8 +26,11 @@ export default {
   data() {
     return {
       imageList: [
-        'https://img.yzcdn.cn/1.jpg',
-        'https://img.yzcdn.cn/2.jpg'
+        'https://raw.githubusercontent.com/healen/xui/gh-pages/a/1.jpeg',
+        'https://raw.githubusercontent.com/healen/xui/gh-pages/a/2.jpeg',
+        'https://raw.githubusercontent.com/healen/xui/gh-pages/a/3.jpeg',
+        'https://raw.githubusercontent.com/healen/xui/gh-pages/a/4.jpeg',
+        'https://raw.githubusercontent.com/healen/xui/gh-pages/a/5.jpeg',
       ]
     };
   }
@@ -42,15 +45,7 @@ export default {
 <div v-for="img in imageList" v-lazy:background-image="img" />
 ```
 
-#### 懒加载模块
 
-懒加载模块需要使用到`lazy-component`，将需要懒加载的内容放在`lazy-component`中即可。
-
-```html
-<lazy-component>
-  <img v-for="img in imageList" v-lazy="img" >
-</lazy-component>
-```
 
 ### Options
 

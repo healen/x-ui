@@ -38,6 +38,7 @@ export default create({
     style() {
       return {
         color: this.color === 'black' ? DEFAULT_COLOR : this.color,
+
         width: this.size,
         height: this.size
       };

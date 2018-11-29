@@ -13,8 +13,8 @@ Vue.use(NoticeBar);
 
 ```html
 <x-notice-bar
-  text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。"
-  left-icon="https://img.yzcdn.cn/1.png"
+  text="通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，"
+  left-icon="huo"
 />
 ```
 
@@ -23,7 +23,7 @@ Vue.use(NoticeBar);
 
 ```html
 <x-notice-bar :scrollable="false">
-  足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。
+  通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，
 </x-notice-bar>
 ```
 
@@ -33,12 +33,12 @@ Vue.use(NoticeBar);
 ```html
 <!-- closeable 模式，在右侧显示关闭按钮 -->
 <x-notice-bar mode="closeable">
-  足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。
+通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，
 </x-notice-bar>
 
 <!-- link 模式，在右侧显示链接箭头 -->
 <x-notice-bar mode="link">
-  足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。
+通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，通知条，
 </x-notice-bar>
 ```
 
@@ -50,7 +50,7 @@ Vue.use(NoticeBar);
 | delay | 动画延迟时间 (s) | `Number` | `1` | - |
 | speed | 滚动速率 (px/s) | `Number` | `50` | - |
 | scrollable | 是否在长度溢出时滚动播放 | `Boolean` | `true` | - |
-| left-icon | 左侧图标图片 URL | `String` | - | - |
+| left-icon | icon名称[现有图标](https://healen.github.io/xui/#/demo/icon) | `String` | - | - |
 | color | 文本颜色 | `String` | `#f60` | - |
 | background | 滚动条背景 | `String` | `#fff7cc` | - |
 
