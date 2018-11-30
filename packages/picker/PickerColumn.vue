@@ -13,7 +13,7 @@
         v-for="(option, index) in options"
         v-html="getOptionText(option)"
         :style="optionStyle"
-        class="van-ellipsis"
+        class="x-ellipsis"
         :class="b('item', {
           disabled: isDisabled(option),
           selected: index === currentIndex

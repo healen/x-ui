@@ -21,7 +21,7 @@ Vue.use(Picker);
 export default {
   data() {
     return {
-      columns: ['杭州', '宁波', '温州', '嘉兴', '湖州']
+       columns: ['猴子', '伽罗', '后羿', '阿轲', '貂蝉'],
     };
   },
   methods: {
@@ -44,9 +44,9 @@ export default {
   data() {
     return {
       columns: [
-        { text: '杭州', disabled: true },
-        { text: '宁波' },
-        { text: '温州' }
+        { text: '凯', disabled: true },
+        { text: '马可波罗' },
+        { text: '猴子' }
       ]
     };
   }
@@ -69,7 +69,7 @@ export default {
 export default {
   data() {
     return {
-      columns: ['杭州', '宁波', '温州', '嘉兴', '湖州']
+        columns: ['猴子', '伽罗', '后羿', '阿轲', '貂蝉'],
     }
   },
   methods: {
@@ -90,10 +90,10 @@ export default {
 ```
 
 ```javascript
-const citys = {
-  '浙江': ['杭州', '宁波', '温州', '嘉兴', '湖州'],
-  '福建': ['福州', '厦门', '莆田', '三明', '泉州']
-};
+ const citys = {
+    '战士': ['典韦', '亚瑟', '赵云', '关羽', '凯'],
+    '法师': ['小乔', '张良', '王昭君','安琪拉','扁鹊']
+  };
 
 export default {
   data() {

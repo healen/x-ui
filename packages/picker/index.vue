@@ -1,9 +1,9 @@
 <template>
   <div :class="b()">
-    <div :class="b('toolbar')" class="van-hairline--top-bottom" v-if="showToolbar">
+    <div :class="b('toolbar')" class="x-hairline--top-bottom" v-if="showToolbar">
       <slot>
         <div :class="b('cancel')" @click="emit('cancel')">{{ cancelButtonText || $t('cancel') }}</div>
-        <div :class="b('title')" class="van-ellipsis" v-if="title" v-text="title" />
+        <div :class="b('title')" class="x-ellipsis" v-if="title" v-text="title" />
         <div :class="b('confirm')" @click="emit('confirm')">{{ confirmButtonText || $t('confirm') }}</div>
       </slot>
     </div>
@@ -22,7 +22,7 @@
         :visible-item-count="visibleItemCount"
         @change="onChange(index)"
       />
-      <div :class="b('frame')" class="van-hairline--top-bottom" :style="frameStyle" />
+      <div :class="b('frame')" class="x-hairline--top-bottom" :style="frameStyle" />
     </div>
   </div>
 </template>

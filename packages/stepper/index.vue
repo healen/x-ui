@@ -6,9 +6,9 @@
     />
     <input
       type="number"
-      :class="b('input')"
+      readonly
+      :class="b('input',{'vhide':value<=0})"
       :value="currentValue"
-      :disabled="disabled || disableInput"
       @input="onInput"
       @blur="onBlur"
     >
@@ -32,7 +32,7 @@ export default create({
     disableInput: Boolean,
     min: {
       type: [String, Number],
-      default: 1
+      default: 0
     },
     max: {
       type: [String, Number],

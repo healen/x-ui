@@ -51,8 +51,8 @@ export default {
   data() {
     checked: true,
     icon: {
-      normal: '//img.yzcdn.cn/icon-normal.png',
-      active: '//img.yzcdn.cn/icon-active.png'
+        normal: require('./img/icon-normal.png'),
+        active: require('./img/icon-active.png')
     }
   }
 }

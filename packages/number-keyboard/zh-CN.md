@@ -34,12 +34,12 @@ export default {
     }
   },
 
-  methods: {
+   methods: {
     onInput(value) {
-      Toast(value);
+      this.$toast(value);
     },
     onDelete() {
-      Toast('delete');
+      this.$toast('delete');
     }
   }
 }

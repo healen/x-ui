@@ -32,15 +32,6 @@ yarm add vue-lazyload
 
 ### 引入组件
 
-#### 方式一. 使用 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import) (推荐)
-
-`babel-plugin-import` 是一款 babel 插件，它会在编译过程中将 import 的写法自动转换为按需引入的方式
-
-```bash
-# 安装 babel-plugin-import 插件
-npm i babel-plugin-import -D
-```
-
 
 #### 方法一. 在main.js里全部引入
 
