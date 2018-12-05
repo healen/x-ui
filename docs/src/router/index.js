@@ -18,7 +18,6 @@ const routes = [
     children:[{
       path:'/',
       component:()=> import('views/demoIndex'),
-
     }]
   },
   {
